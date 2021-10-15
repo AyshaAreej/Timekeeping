@@ -59,8 +59,8 @@ public class date {
 	driver.findElement(By.xpath("//*[@id=\"project_assignment_role\"]")).sendKeys("Director");
 	driver.findElement(By.xpath("//*[@id=\"project_assignment_from\"]")).sendKeys("2021-09-13");
     driver.findElement(By.xpath("//*[@id=\"project_assignment_until\"]")).sendKeys("2021-09-17");
-    driver.findElement(By.xpath("//*[@id=\"project_assignment_max_regular_day\"]")).sendKeys("6");
-    driver.findElement(By.xpath("//*[@id=\"project_assignment_max_ot_day\"]")).sendKeys("2");
+    driver.findElement(By.xpath("//*[@id=\"project_assignment_max_hours_day\"]")).sendKeys("6");
+    driver.findElement(By.xpath("//*[@id=\"project_assignment_max_minutes_day\"]")).sendKeys("2");
     driver.findElement(By.xpath("//*[@id=\"new_project_assignment\"]/div[8]/input")).submit();
     driver.findElement(By.xpath("/html/body/div[1]/nav/a[1]")).click();
     driver.findElement(By.xpath("//*[@id=\"sidebar\"]/div[2]/div/ul/li[2]/a")).click();
